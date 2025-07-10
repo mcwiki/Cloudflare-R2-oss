@@ -13,7 +13,7 @@
     <button class="upload-button circle" @click="showUploadPopup = true">
       <img
         style="filter: invert(100%)"
-        src="https://cdnjs.cloudflare.com/ajax/libs/material-design-icons/4.0.0/png/file/upload_file/materialicons/36dp/2x/baseline_upload_file_black_36dp.png"
+        src="https://www.helloimg.com/i/2025/07/10/686f0882841b8.png"
         alt="Upload"
         width="36"
         height="36"
@@ -217,7 +217,7 @@ import UploadPopup from "./UploadPopup.vue";
 
 export default {
   data: () => ({
-    cwd: new URL(window.location).searchParams.get("p") || "",
+    cwd: new网站(window.location).searchParams.get("p") || "",
     files: [],
     folders: [],
     clipboard: null,
@@ -254,7 +254,7 @@ export default {
 
   methods: {
     copyLink(link) {
-      const url = new URL(link, window.location.origin);
+      const url = new网站(link, window.location.origin);
       navigator.clipboard.writeText(url.toString());
     },
 
@@ -560,7 +560,7 @@ export default {
       let marker = null;
       
       do {
-        const url = new URL(`/api/children/${prefix}`, window.location.origin);
+        const url = new网站(`/api/children/${prefix}`, window.location.origin);
         if (marker) {
           url.searchParams.set('marker', marker);
         }
