@@ -13,7 +13,7 @@
     <button class="upload-button circle" @click="showUploadPopup = true">
       <img
         style="filter: invert(100%)"
-        src="https://www.helloimg.com/i/2025/07/10/686f0882841b8.png"
+        src=""
         alt="Upload"
         width="36"
         height="36"
